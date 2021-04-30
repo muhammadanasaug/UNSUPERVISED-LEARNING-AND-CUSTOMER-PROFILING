@@ -1,0 +1,31 @@
+Quiz 1                                                                      Marks:10
+Name :Anas
+
+Q1. What is the advantage of mini batch K-Means over K-Means?
+A. The advantage of mini batch K Means over K Means is the reduced computational cost as it doesnt use all the dataset in each iteration
+
+Q2. What are the two ways of identifying optimal number of clusters in the K-Means algorithm?
+A. Two method that can help us decide the optimal number of clusters are:
+	Elbow Method	Silhouette Method
+
+Q3. How does the mean shift algorithm work? 
+A. In mean shift algorithm, we specify the region of interest after which, the data point moves towards the high distribution area.
+
+Q4. What does the bandwidth parameter in Mean shift algorithm do? 
+A. It indicates the size of the window across which we calculate the mean.
+
+Q5. How do we decide the optimal number of clusters in hierarchical clustering?
+A. We decide the optimal number of clusters in hierarchical clustering through dendograms, at first we look for the largest vertical distance that doesn’t intersect any of the other clusters then we draw a horizontal line at both extremities, optimal number of clusters is equal to the number of vertical lines going through the horizontal line.
+
+Q6. What are the different types of points in density based clusters?
+A. Areas where points are concentrated and where they are separated by areas that are empty.
+
+Q7. How does DB Scan  work different from  K-means and hierarchical clustering ?
+A. 	i) DB Scan works on the cluster of any shape 
+	ii) It isnt affected by the presence of noise and outliers
+
+Q8. What is the advantage of GMM over K-means?
+A. GMM tells us about which data belongs to which cluster along with the probabilities. In other words, it performs hard classification while K-Means perform soft classification.
+
+Q9. How does Affinity propagation work?
+A. Affinity propagation is a centroid based clustering algorithm which does not require the estimation of the number of clusters before running the algorithm. It takes as input the similarities between the data points and identifies exemplars.
